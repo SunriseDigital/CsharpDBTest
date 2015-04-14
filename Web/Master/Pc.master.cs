@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Web
+namespace Web.Master
 {
-    public partial class Contact : Page
+    public partial class Pc : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

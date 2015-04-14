@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Diagnostics;
 
 namespace Web.employee
 {
@@ -11,7 +12,7 @@ namespace Web.employee
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Debug.WriteLine("コンソール");
         }
     }
 }

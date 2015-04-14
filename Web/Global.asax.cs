@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Routing;
 using System.Web.Security;
 using Web;
+using System.Diagnostics;
 
 namespace Web
 {
@@ -13,7 +14,6 @@ namespace Web
         void Application_Start(object sender, EventArgs e)
         {
             // アプリケーションのスタートアップで実行するコードです
-            AuthConfig.RegisterOpenAuth();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
 
