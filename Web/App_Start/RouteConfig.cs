@@ -10,6 +10,11 @@ namespace Web
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            routes.MapPageRoute(
+                "Shop",
+                "shop/{shop_id}/",
+                "~/shop/Default.aspx"
+            );
             routes.EnableFriendlyUrls();
         }
     }

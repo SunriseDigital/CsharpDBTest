@@ -6,13 +6,14 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Diagnostics;
 
-namespace Web
+namespace Web.shop
 {
     public partial class Default : System.Web.UI.Page
     {
+        protected string shopCode;
         protected void Page_Load(object sender, EventArgs e)
         {
-            Debug.WriteLine("Default");
+            shopCode = Convert.ToString(Page.RouteData.Values["shop_id"]);
         }
     }
 }
