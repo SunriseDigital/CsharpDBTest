@@ -121,6 +121,7 @@
     <Content Include="Master\Site.Master" />
     <Content Include="Master\Pc.master" />
     <Content Include="shop\Default.aspx" />
+    <Content Include="shop\girls.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -171,6 +172,10 @@
     <Compile Include="Master\Pc.master.designer.cs">
       <DependentUpon>Pc.master</DependentUpon>
     </Compile>
+    <Compile Include="Models\Page\Shop.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\Routing\ShopRouteHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shop\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -178,6 +183,13 @@
     </Compile>
     <Compile Include="shop\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shop\girls.aspx.cs">
+      <DependentUpon>girls.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shop\girls.aspx.designer.cs">
+      <DependentUpon>girls.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

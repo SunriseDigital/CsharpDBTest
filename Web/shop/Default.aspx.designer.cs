@@ -10,6 +10,6 @@
 namespace Web.shop {
     
     
-    public partial class Default {
+    public partial class girls {
     }
 }

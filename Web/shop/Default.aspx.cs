@@ -8,12 +8,11 @@ using System.Diagnostics;
 
 namespace Web.shop
 {
-    public partial class Default : System.Web.UI.Page
+    public partial class Default : Web.Models.Page.Shop
     {
-        protected string shopCode;
         protected void Page_Load(object sender, EventArgs e)
         {
-            shopCode = Convert.ToString(Page.RouteData.Values["shop_id"]);
+            
         }
     }
 }
