@@ -1,5 +1,8 @@
 # CsharpDBTest
 
+https://github.com/SunriseDigital/CsharpSunrise/issues/1
+こちらのISSUEに解説等経緯を載せています。
+
 ## DBTest
 
 ユニットテストのプロジェクトです。VisualStudio for Webはコンソールアプリが作れません。Webアプリはコード側を弄るとビルドが必要なためちょっとしたことを試すときに面倒なのでユニットテストのプロジェクトを利用しています。
