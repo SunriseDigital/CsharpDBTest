@@ -9,9 +9,9 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Configuration;
 
-namespace Web
+namespace Web.employee
 {
-    public partial class db_test : System.Web.UI.Page
+    public partial class Default : System.Web.UI.Page
     {
         protected List<Dictionary<string, string>> employees;
         protected void Page_Load(object sender, EventArgs e)

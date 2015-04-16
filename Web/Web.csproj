@@ -112,7 +112,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="employee\default.aspx" />
+    <Content Include="employee\Default.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="employee\edit.aspx" />
     <Content Include="Global.asax" />
@@ -134,12 +134,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="employee\default.aspx.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="employee\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="employee\default.aspx.designer.cs">
-      <DependentUpon>default.aspx</DependentUpon>
+    <Compile Include="employee\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -175,7 +175,6 @@
     <Compile Include="Models\Page\Shop.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Models\Routing\ShopRouteHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shop\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -194,6 +193,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CsharpSunrise\Sunrise\Sunrise.csproj">
+      <Project>{f97a1e06-234a-4379-9eba-52f45e5e9160}</Project>
+      <Name>Sunrise</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

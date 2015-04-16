@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Master/Pc.master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="Web.db_test" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Master/Pc.master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web.employee.Default" %>
 
 <asp:Content ContentPlaceHolderID="MainContent" Runat="Server">
     <div class="panel panel-default">

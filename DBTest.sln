@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTest", "DBTest\DBTest.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{6B057B2F-6993-430B-A23A-C2604E0F3924}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunrise", "..\CsharpSunrise\Sunrise\Sunrise.csproj", "{F97A1E06-234A-4379-9EBA-52F45E5E9160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B057B2F-6993-430B-A23A-C2604E0F3924}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B057B2F-6993-430B-A23A-C2604E0F3924}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B057B2F-6993-430B-A23A-C2604E0F3924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97A1E06-234A-4379-9EBA-52F45E5E9160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97A1E06-234A-4379-9EBA-52F45E5E9160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97A1E06-234A-4379-9EBA-52F45E5E9160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97A1E06-234A-4379-9EBA-52F45E5E9160}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

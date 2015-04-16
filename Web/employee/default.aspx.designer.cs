@@ -7,9 +7,9 @@
 // </自動生成>
 //------------------------------------------------------------------------------
 
-namespace Web {
+namespace Web.employee {
     
     
-    public partial class db_test {
+    public partial class Default {
     }
 }
