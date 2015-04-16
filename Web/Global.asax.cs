@@ -28,5 +28,10 @@ namespace Web
             // ハンドルされていないエラーが発生したときに実行するコードです
 
         }
+
+        void Application_BeginRequest(object sender, EventArgs e)
+        {
+            Response.Filter = new Sunrise.ResponseFilter.DebugDisplay(Response.Filter);
+        }
     }
 }
