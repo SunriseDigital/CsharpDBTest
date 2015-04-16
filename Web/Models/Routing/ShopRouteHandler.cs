@@ -31,9 +31,7 @@ namespace Web.Models.Routing
             }
 
             String vPath = VirtualPath.Replace("{action}", action);
-
-            Debug.WriteLine(vPath);
-            return BuildManager.CreateInstanceFromVirtualPath(vPath, typeof(System.Web.UI.Page)) as IHttpHandler;
+            return BuildManager.CreateInstanceFromVirtualPath(vPath, typeof(System.Web.UI.Page)) as IHttpHandler;;
         }
     }
 }
