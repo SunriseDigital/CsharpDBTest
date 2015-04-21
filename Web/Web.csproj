@@ -115,6 +115,7 @@
     <Content Include="employee\Default.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="employee\edit.aspx" />
+    <Content Include="ErrorPages\404.aspx" />
     <Content Include="Global.asax" />
     <Content Include="favicon.ico" />
     <Content Include="packages.config" />
@@ -154,6 +155,13 @@
     </Compile>
     <Compile Include="employee\edit.aspx.designer.cs">
       <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPages\404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
