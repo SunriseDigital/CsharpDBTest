@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Sunrise;
 
 namespace Web.Models.Page
 {
@@ -11,7 +12,20 @@ namespace Web.Models.Page
         protected override void OnInit(EventArgs e)
         {
             base.OnInit(e);
-            shopCode = Convert.ToString(Page.RouteData.Values["shop_code"]);
+            if (!Page.RouteData.Values.ContainsKey("shop_code"))
+            {
+                Response.TrySkipIisCustomErrors = true;
+                Server.Transfer("/ErrorPages/Shop404.aspx");
+            }
+
+            shopCode = Page.RouteData.Values["shop_code"] as String;
+
+            if(shopCode == "missing")
+            {
+                Response.TrySkipIisCustomErrors = true;
+                Server.Transfer("/ErrorPages/Shop404.aspx");
+            }
+    
         }
     }
 }

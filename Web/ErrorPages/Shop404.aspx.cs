@@ -4,15 +4,14 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Diagnostics;
 
-namespace Web.shop
+namespace Web.ErrorPages
 {
-    public partial class Default : Web.Models.Page.Shop
+    public partial class Shop404 : Web.Models.Page.Base404
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Sunrise.Debug.Log("ShopDefault");
+
         }
     }
 }

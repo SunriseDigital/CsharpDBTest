@@ -116,6 +116,7 @@
     <Content Include="Default.aspx" />
     <Content Include="employee\edit.aspx" />
     <Content Include="ErrorPages\404.aspx" />
+    <Content Include="ErrorPages\Shop404.aspx" />
     <Content Include="Global.asax" />
     <Content Include="favicon.ico" />
     <Content Include="packages.config" />
@@ -163,6 +164,13 @@
     <Compile Include="ErrorPages\404.aspx.designer.cs">
       <DependentUpon>404.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ErrorPages\Shop404.aspx.cs">
+      <DependentUpon>Shop404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPages\Shop404.aspx.designer.cs">
+      <DependentUpon>Shop404.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -179,6 +187,9 @@
     </Compile>
     <Compile Include="Master\Pc.master.designer.cs">
       <DependentUpon>Pc.master</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Page\Base404.cs">
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Models\Page\Shop.cs">
       <SubType>ASPXCodeBehind</SubType>
